@@ -1,3 +1,6 @@
+hosts: fortigates
+
+tasks:
 - name: Create Address
 
   fortinet.fortios.fortios_firewall_address:
