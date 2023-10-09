@@ -1,4 +1,4 @@
-hosts: fortigates
+hosts: all
 
 tasks:
 - name: Create Address
