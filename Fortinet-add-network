@@ -1,0 +1,11 @@
+- name: Create Address
+
+  fortinet.fortios.fortios_firewall_address:
+
+    state: “present”
+
+    firewall_address:
+
+      name: 10.1.1.1/24
+
+      subnet: 10.1.1.1 255.255.255.0
